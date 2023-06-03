@@ -6,7 +6,6 @@ public class JavaBasics {
         /*
             Output
         */
-            //Print single lines
         {
             System.out.print("Hello there");        // prints out the string on a line w/o linebreak
             System.out.print("\n");
@@ -79,6 +78,94 @@ public class JavaBasics {
             System.out.println("Variables Output End");
         }
 
+        /*
+            Operators
+        * */
+        {
+            System.out.println("\n");
+            System.out.println("Operators Output Start");
+
+            /*
+                Arithmetic operators
+                    +	Addition	Adds together two values	x + y
+                    -	Subtraction	Subtracts one value from another	x - y
+                    *	Multiplication	Multiplies two values	x * y
+                    /	Division	Divides one value by another	x / y
+                    %	Modulus	Returns the division remainder	x % y
+                    ++	Increment	Increases the value of a variable by 1	++x
+                    --	Decrement	Decreases the value of a variable by 1	--x
+
+                Assignment operators
+                    =	x = 5	x = 5
+                    +=	x += 3	x = x + 3
+                    -=	x -= 3	x = x - 3
+                    *=	x *= 3	x = x * 3
+                    /=	x /= 3	x = x / 3
+                    %=	x %= 3	x = x % 3
+                    &=	x &= 3	x = x & 3
+                    |=	x |= 3	x = x | 3
+                    ^=	x ^= 3	x = x ^ 3
+                    >>=	x >>= 3	x = x >> 3
+                    <<=	x <<= 3	x = x << 3
+
+                Comparison operators
+                    ==	Equal to	x == y
+                    !=	Not equal	x != y
+                    >	Greater than	x > y
+                    <	Less than	x < y
+                    >=	Greater than or equal to	x >= y
+                    <=	Less than or equal to	x <= y
+
+                Logical operators
+                    && 	Logical and	Returns true if both statements are true	x < 5 &&  x < 10
+                    || 	Logical or	Returns true if one of the statements is true	x < 5 || x < 4
+                    !	Logical not	Reverse the result, returns false if the result is true	!(x < 5 && x < 10)
+
+             */
+
+            // Strings
+                // Strings in Java are actually objects, because they contain methods
+                // These methods perform certain operations on the string
+                // Example of methods
+
+                String method_string = "Some random string";
+                String method_string_2 = "Another String";
+                System.out.println("The length of the string is : " + method_string.length());
+                System.out.println("The Uppercase of the string is : " + method_string.toUpperCase());
+                System.out.println("The lowercase of the string is : " + method_string.toLowerCase());
+                System.out.println("The index of the string is : " + method_string.indexOf("string"));
+                System.out.println("Concatenation : " + method_string.concat(method_string_2));
+
+                // If a string is added/concatenated to an integer, the result is a string
+                int a_c_no = 23;
+                String a_c_str = "String";
+                String a_c_fin = a_c_no + a_c_str;
+                System.out.println(a_c_fin);
+
+                /*
+                * Escape sequence
+                * \r - return
+                * \n - new line
+                * \t - tab
+                * \b - back space
+                * \f - form feed
+                *
+                * */
+
+            System.out.println("Operators Output End");
+        }
+
+        /*
+            Conditionals
+        * */
+
+        /*
+            Loops
+        * */
+
+        /*
+            Arrays
+        * */
     }
 }
 
