@@ -60,19 +60,19 @@ public class JavaBasics {
             final String const_string = "Constant string"; // This is a constant string
 
             // Type casting : assigning the value of one type to another
-                // Wide casting : Small to wide size type
-                int cast_int_1 = 32;
-                double cast_double_1 = cast_int_1;
-                
-                System.out.println(cast_int_1);
-                System.out.println(cast_double_1);
+            // Wide casting : Small to wide size type
+            int cast_int_1 = 32;
+            double cast_double_1 = cast_int_1;
 
-                // Narrow casting : Wide to small
-                double cast_double = 32.32d;
-                int cast_int = (int) cast_double;
+            System.out.println(cast_int_1);
+            System.out.println(cast_double_1);
 
-                System.out.println(cast_double);
-                System.out.println(cast_int);
+            // Narrow casting : Wide to small
+            double cast_double = 32.32d;
+            int cast_int = (int) cast_double;
+
+            System.out.println(cast_double);
+            System.out.println(cast_int);
 
             //System.out.println("\n");
             System.out.println("Variables Output End");
@@ -86,7 +86,7 @@ public class JavaBasics {
             System.out.println("Operators Output Start");
 
             /*
-                Arithmetic operators
+            *    Arithmetic operators
                     +	Addition	Adds together two values	x + y
                     -	Subtraction	Subtracts one value from another	x - y
                     *	Multiplication	Multiplies two values	x * y
@@ -124,33 +124,42 @@ public class JavaBasics {
              */
 
             // Strings
-                // Strings in Java are actually objects, because they contain methods
-                // These methods perform certain operations on the string
-                // Example of methods
+            // Strings in Java are actually objects, because they contain methods
+            // These methods perform certain operations on the string
+            // Example of methods
 
-                String method_string = "Some random string";
-                String method_string_2 = "Another String";
-                System.out.println("The length of the string is : " + method_string.length());
-                System.out.println("The Uppercase of the string is : " + method_string.toUpperCase());
-                System.out.println("The lowercase of the string is : " + method_string.toLowerCase());
-                System.out.println("The index of the string is : " + method_string.indexOf("string"));
-                System.out.println("Concatenation : " + method_string.concat(method_string_2));
+            String method_string = "Some random string";
+            String method_string_2 = "Another String";
+            System.out.println("The length of the string is : " + method_string.length());
+            System.out.println("The Uppercase of the string is : " + method_string.toUpperCase());
+            System.out.println("The lowercase of the string is : " + method_string.toLowerCase());
+            System.out.println("The index of the string is : " + method_string.indexOf("string"));
+            System.out.println("Concatenation : " + method_string.concat(method_string_2));
 
-                // If a string is added/concatenated to an integer, the result is a string
-                int a_c_no = 23;
-                String a_c_str = "String";
-                String a_c_fin = a_c_no + a_c_str;
-                System.out.println(a_c_fin);
+            // If a string is added/concatenated to an integer, the result is a string
+            int a_c_no = 23;
+            String a_c_str = "String";
+            String a_c_fin = a_c_no + a_c_str;
+            System.out.println(a_c_fin);
 
-                /*
-                * Escape sequence
-                * \r - return
-                * \n - new line
-                * \t - tab
-                * \b - back space
-                * \f - form feed
-                *
-                * */
+            /*
+             * Escape sequence
+             * \r - return
+             * \n - new line
+             * \t - tab
+             * \b - back space
+             * \f - form feed
+             *
+             * */
+
+            // Math Class
+
+            int x = 23;
+            int y = 120;
+            System.out.println("Max no is : " + Math.max(x, y));
+            System.out.println("Random no is : " + Math.random());
+            int randomNo = (int) (Math.random() * 101);
+            System.out.println("Another random no : " + randomNo);
 
             System.out.println("Operators Output End");
         }
@@ -158,14 +167,101 @@ public class JavaBasics {
         /*
             Conditionals
         * */
+        {
+            // If conditionals
+            int x = 3, y = 5;
+            if (x > y) {
+                System.out.println("(If) x is bigger than y");
+            } else {
+                System.out.println("(if) y is bigger than x");
+            }
+
+            // Ternary operator ie short hand if-else
+            String result = (x > y) ? "(ternary) x is bigger than y" : "(ternary) y is bigger than x";
+            System.out.println(result);
+
+            // switch conditional
+            int number = (int) (Math.random() * 40);
+            System.out.println("Number : " + number);
+            switch (number) {
+                case 1:
+                    System.out.println("one");
+                    break;
+                case 2:
+                    System.out.println("two");
+                    break;
+                case 3:
+                    System.out.println("three");
+                    break;
+                default:
+                    System.out.println("none");
+                    break;
+            }
+
+            /*
+             * Difference btn "break" and "continue"
+             *
+             *   break:
+             *       Exits the loop
+             *
+             *   continue:
+             *       Skips a loop
+             *
+             * */
+
+
 
         /*
             Loops
         * */
+            {
+                // while loop
+                int _x = 0;
+                while (_x < 5) {
+                    System.out.println("(while)" + _x);
+                    _x++;
+                }
 
+                // do while
+                int _y = 0;
+                do {
+                    System.out.println("(do-whilw)" + _y);
+                    _y++;
+                } while (_y < 5);
+
+                // for loop
+                for (int _z = 0 ; _z < 5 ; _z = _z + 2 ){
+                    System.out.println("(for) : " + _z);
+                }
+
+                // for-each loop
+                int[] numbers = {1,2,3,4,5};
+                for (int _number : numbers){
+                    System.out.println("(for-each):" + _number);
+                }
+
+                // Arrays
+                String[] continents = {"Africa", "Asia", "Europe", "N.America", "S.America"};
+                for (String continent : continents) {
+                    System.out.println("Continent : " + continent);
+                }
+                // get a certain element in the array
+                System.out.println(continents[0]);
+                // get the length of an array
+                System.out.println(continents.length);
+
+                // multidimentional Arrays
+                String[][] excel_col = {{"A1", "A2", "A3"}, {"B1", "B2", "B3"}, {"C1", "C2", "C3"}};
+                for (int i = 0 ; i < excel_col.length ; ++i){
+                    for (int j = 0 ; j < excel_col.length ; ++j){
+                        System.out.println(excel_col[i][j]);
+                    }
+                }
+            }
         /*
             Arrays
         * */
+        }
     }
 }
 
