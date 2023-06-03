@@ -1,7 +1,5 @@
 public class Methods {
 
-
-
     //first method
     static void nameMethod(String fname, int age){
         System.out.printf("My name is %s and my age is %d", fname, age);
@@ -35,6 +33,14 @@ public class Methods {
         return z_2 + w_2;
     }
 
+    public static int recursive_sum(int k) {
+        if (k > 0) {
+            return k + recursive_sum(k - 1);
+        } else {
+            return 0;
+        }
+    }
+
 
 
     public static void main(String[] args) {
@@ -55,6 +61,19 @@ public class Methods {
         // Overloaded method
         System.out.println("Overloaded int : " + overloaded_sum(3,4));
         System.out.println("Overloaded double : " + overloaded_sum(2.4, 4.2));
+
+        // Block scope
+        // Code here CANNOT use x
+        { // This is a block
+            // Code here CANNOT use x
+            int x = 100;
+            // Code here CAN use x
+            System.out.println("Scope test : " + x);
+        } // The block ends here
+        // Code here CANNOT use x
+
+        // Recursive sum
+        System.out.println("Recursive Sum : " + recursive_sum(3000));
 
     }
 }
