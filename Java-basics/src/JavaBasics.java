@@ -212,7 +212,7 @@ public class JavaBasics {
 
 
         /*
-            Loops
+            Loops & Arrays
         * */
             {
                 // while loop
@@ -258,9 +258,7 @@ public class JavaBasics {
                     }
                 }
             }
-        /*
-            Arrays
-        * */
+        
         }
     }
 }
