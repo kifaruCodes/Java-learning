@@ -69,8 +69,6 @@ public class OopBasics {
             System.out.println("The color of the car is : " + car1._color);
             car1.carStatement();
             car1.plateNo(1232);
-
-            
         }
     }
 }
