@@ -24,9 +24,9 @@ public class Student {
         return grade;
     }
 
-    public int updateFees(int fees){
+    public void payFees(int fees){
         feesPaid += fees;
-        return feesPaid;
+        School.updateTotalMoneyEarned(feesPaid);
     }
 
     public int getId() {
@@ -47,5 +47,14 @@ public class Student {
 
     public int getFeesTotal() {
         return feesTotal;
+    }
+
+    public int getRemainingFees(){
+        return feesTotal - feesPaid;
+    }
+
+    @Override
+    public String toString() {
+        return "Student Name : " + name + " Fees paid so far : $" + feesPaid;
     }
 }
