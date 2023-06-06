@@ -21,10 +21,31 @@ public class Student {
     // update grades
     public int updateGrade(int grade){
         this.grade = grade;
+        return grade;
     }
 
     public int updateFees(int fees){
         feesPaid += fees;
+        return feesPaid;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    public int getFeesTotal() {
+        return feesTotal;
+    }
 }
