@@ -8,11 +8,11 @@ Any feedback is highly appreciated.
 
 ## Overview
 ---
-- I explore the fundamentals of JAVA in [this folder](https://github.com/kifaruCodes/Java-learning/tree/main/Java-basics/src)
+1. I explore the fundamentals of JAVA in [this folder](https://github.com/kifaruCodes/Java-learning/tree/main/Java-basics/src)
 
 
-- I explore the fundamentals of Java OOP [here](/java-learning/oop/README)
+2. I explore the fundamentals of Java OOP [here](https://github.com/kifaruCodes/Java-learning/tree/main/2.%20oop/src)
 
-- Since OOP is a wide topic, I continue with OOP [here](/java-learning/oop-2/README.md)
+3. Since OOP is a wide topic, I continue with OOP [here](https://github.com/kifaruCodes/Java-learning/tree/main/3.%20oop-2/src)
 
-- First project : a school management sytem. View the project [here](/java-learning/School%20Management%20System/README.md)
+4. First project : a school management sytem. View the project [here](https://github.com/kifaruCodes/Java-learning/tree/main/4.%20School%20Management%20System)
