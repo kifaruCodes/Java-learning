@@ -1,9 +1,20 @@
-# Java code
+# **Java Fundamentals**
 
 [Back](/java-learning/readme.md)
 
-Overview
+## Overview
 ---
+
+In this section we cover the followinf topics:
+- Output
+- variables
+- Data types
+- Strings
+- Operators and math
+- conditionals
+- loops
+- arrays
+- methods
 
 This section covers basics of Java, which ranges from outputs:
 
@@ -20,3 +31,9 @@ System.out.println();
 
 }
 ```
+
+## Project Structure
+---
+This section contains two files:
+- JavaBasics.java : Covers Java basics...variables, loops, arrays etc
+- Methods : Covers methods, method overloading and method scope

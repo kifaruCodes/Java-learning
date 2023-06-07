@@ -32,11 +32,11 @@ public class Main {
         School mySchool = new School(teacherList, studentList);
         System.out.println("MySchool has earned : $" + mySchool.getTotalMoneyEarned());
 
-        // Add teacher
+        // Add new teacher
         Teacher reileigh = new Teacher(4, "Reileigh", 2000);
         mySchool.addTeacher(reileigh);
 
-        // Add student
+        // Add new student
         Student luffy = new Student(4, "Luffy", 5);
         mySchool.addStudent(luffy);
 
