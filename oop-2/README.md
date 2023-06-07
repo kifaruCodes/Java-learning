@@ -1,6 +1,6 @@
 # OOP part 2
 
-[back](/java-learning/README.md)
+[back](https://github.com/kifaruCodes/Java-learning)
 
 ## Overview
 ---

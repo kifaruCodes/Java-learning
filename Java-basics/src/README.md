@@ -1,6 +1,6 @@
 # **Java Fundamentals**
 
-[Back](/java-learning/readme.md)
+[Back](https://github.com/kifaruCodes/Java-learning)
 
 ## Overview
 ---
