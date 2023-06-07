@@ -8,7 +8,7 @@ Any feedback is highly appreciated.
 
 ## Overview
 ---
-- I explore the fundamentals of JAVA in [this folder](/java-learning/java-basics/src/readme.md)
+- I explore the fundamentals of JAVA in [this folder](https://github.com/kifaruCodes/Java-learning/tree/main/Java-basics/src)
 
 
 - I explore the fundamentals of Java OOP [here](/java-learning/oop/README)
