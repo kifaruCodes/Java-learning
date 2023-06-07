@@ -11,7 +11,7 @@ Any feedback is highly appreciated.
 - I explore the fundamentals of JAVA in [this folder](/java-learning/java-basics/src/readme.md)
 
 
-- I explore the fundamentals of Java OOP [here](/java-learning/oop/README.md)
+- I explore the fundamentals of Java OOP [here](/java-learning/oop/README)
 
 - Since OOP is a wide topic, I continue with OOP [here](/java-learning/oop-2/README.md)
 
