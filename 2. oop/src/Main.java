@@ -1,12 +1,12 @@
 // class is a template for objects, and an object is an instance of a class.
 
-public class OopBasics {
+public class Main {
     int number;
     String sentence;
     boolean myBoolean;
 
     // constructor
-    public OopBasics(){
+    public Main(){
         number = 100;
         sentence = "My sentence";
         myBoolean = true;
@@ -25,12 +25,12 @@ public class OopBasics {
 
         // Internal attributes and methods
         {
-            OopBasics object1 = new OopBasics();
+            Main object1 = new Main();
             System.out.println("My number is : " + object1.number);
             System.out.println("My sentence is : " + object1.sentence);
             System.out.println("My boolean is : " + object1.myBoolean);
 
-            OopBasics object2 = new OopBasics();
+            Main object2 = new Main();
             object2.number = 200;
             System.out.println("My second object is : " + object2.number);
 
@@ -53,7 +53,7 @@ public class OopBasics {
             // from an internal class
             myString();
 
-            OopBasics static_method = new OopBasics();
+            Main static_method = new Main();
             static_method.myOtherString();
 
             // from an external class

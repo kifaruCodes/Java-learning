@@ -1,3 +1,5 @@
+![Java Logo](https://kifarucodes.github.io/assets/img/java_logo_sm.png)
+
 # **Java-learning**
 
 This is a personal learning project on Java. I document the concepts of Java that i have learnt below. 
