@@ -1,6 +1,7 @@
 package school.management.system;
 
 public class Teacher {
+    // Teacher Attributes
     private int id;
     private String name;
     private int salary;
@@ -14,6 +15,7 @@ public class Teacher {
         this.salaryEarned = 0;
     }
 
+    //Teacher getters
     public int getId(){
         return id;
     }
@@ -26,6 +28,7 @@ public class Teacher {
         return salary;
     }
 
+    // Teacher setters
     public void setSalary(int salary){
         this.salary = salary;
     }

@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2023-06-14T00:09:16.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="AbVPf_2aKiuD7bCx-5k7" version="21.3.7" type="device">
+  <diagram name="Page-1" id="q_xMO43V8BIOLYlM-Z1-">
+    <mxGraphModel dx="918" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-10" width="630" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Y2ko5SM9BQh7rrg5U9v-29" target="4Y2ko5SM9BQh7rrg5U9v-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="100" />
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="190" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Y2ko5SM9BQh7rrg5U9v-26" target="4Y2ko5SM9BQh7rrg5U9v-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Y2ko5SM9BQh7rrg5U9v-24" target="4Y2ko5SM9BQh7rrg5U9v-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="100" />
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="160" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-1" value="getID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-2" value="getName" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-5" value="getGrade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-6" value="getFeesPaid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-7" value="getFeesTotal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-8" value="getRemainingFees" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-9" value="getID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-10" value="getName" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-11" value="getSalary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-12" value="setSalary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-13" value="receiveSalary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-14" value="updateGrade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-15" value="payFees" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-16" value="getTeacher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-17" value="addTeacher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-18" value="getStudent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-19" value="addStudent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-20" value="getTotalMoneyEarned" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-21" value="updateTotalMoneyEarned" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="430" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-22" value="getTotalMoneySpent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-23" value="updateTotalMoneySpent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-25" value="Student Class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="215" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-27" value="Teacher Class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="415" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-30" value="School Class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Y2ko5SM9BQh7rrg5U9v-31" value="Main Class" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
