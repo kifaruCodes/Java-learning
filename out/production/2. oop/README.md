@@ -14,6 +14,6 @@ This section covers the basics of OOP, which include:
 ## Project structure
 ---
 The files in this learning project are:
-1. OopBasics.java : The main class
+1. Main.java : The main class
 2. Attributes_n_Methods.java : a class with the external attributes and methods
 3. CarClass.java : a alass with an experimental project exploring OOP concepts

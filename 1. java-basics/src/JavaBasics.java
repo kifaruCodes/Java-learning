@@ -1,4 +1,5 @@
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class JavaBasics {
     public static void main(String[] args) {
@@ -26,6 +27,29 @@ public class JavaBasics {
             String name = "Kifaru";
             String language = "Java";
             System.out.printf("My name is %s and I am learning %S. %n", name, language);
+        }
+
+        {
+            // Scanner class
+            // Create Scanner object
+            Scanner scanner = new Scanner(System.in);
+
+            // Get string input
+            System.out.println("Please enter your name: ");
+            String scanner_name = scanner.nextLine();
+            System.out.println("Hello there " + scanner_name);
+
+            // get integer input
+            System.out.println("How about your age?");
+            int scanner_age = scanner.nextInt();
+            scanner.nextLine();
+
+
+
+            System.out.println("Thank you for the information. Your name is "
+                    + scanner_name + ". your age is " + scanner_age);
+            scanner.nextLine();
+
         }
 
 
