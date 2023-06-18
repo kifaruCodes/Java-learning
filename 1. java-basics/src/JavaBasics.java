@@ -48,7 +48,10 @@ public class JavaBasics {
 
             System.out.println("Thank you for the information. Your name is "
                     + scanner_name + ". your age is " + scanner_age);
-            scanner.nextLine();
+
+
+            // Close scanner as there is no more input to read
+            scanner.close();
 
         }
 
