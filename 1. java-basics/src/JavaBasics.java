@@ -29,8 +29,12 @@ public class JavaBasics {
             System.out.printf("My name is %s and I am learning %S. %n", name, language);
         }
 
+        /*
+            Scanner Class
+        */
+
         {
-            // Scanner class
+
             // Create Scanner object
             Scanner scanner = new Scanner(System.in);
 
@@ -44,15 +48,12 @@ public class JavaBasics {
             int scanner_age = scanner.nextInt();
             scanner.nextLine();
 
-
-
+            // print out all the user input
             System.out.println("Thank you for the information. Your name is "
                     + scanner_name + ". your age is " + scanner_age);
 
-
             // Close scanner as there is no more input to read
             scanner.close();
-
         }
 
 
