@@ -70,7 +70,7 @@ public class JavaBasics {
             System.out.println("\n");
             System.out.println("Variables Output Start");
 
-            int x = 5; // This is a string
+            int x = 5; // This is an integer
             byte w = 2; // This is a byte
             short y = 100; // This is a short
             long z = 10000000; // This is a long
@@ -253,7 +253,7 @@ public class JavaBasics {
                 // do while
                 int _y = 0;
                 do {
-                    System.out.println("(do-whilw)" + _y);
+                    System.out.println("(do-while)" + _y);
                     _y++;
                 } while (_y < 5);
 
